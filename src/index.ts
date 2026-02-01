@@ -2,6 +2,7 @@ const types = require('./simpleTypes');
 const SpecialTypes = require('./specialTypes');
 const Array = require('./array');
 const ourTuple = require('./tuples');
+const object = require('./object');
 
 console.log(types.name);
 console.log(types.email);
@@ -24,3 +25,6 @@ console.log(Array.numsArray);
 console.log(Array.booleanArray);
 console.log('=================');
 console.log(ourTuple);
+console.log('=================');
+console.log(object.car);
+console.log(object.student);
