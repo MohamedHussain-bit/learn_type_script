@@ -1,5 +1,6 @@
 const types = require('./simpleTypes');
 const SpecialTypes = require('./specialTypes');
+const Array = require('./array');
 
 console.log(types.name);
 console.log(types.email);
@@ -17,3 +18,6 @@ console.log(SpecialTypes.key);
 console.log(SpecialTypes.x);
 console.log(SpecialTypes.y);
 console.log('=================');
+console.log(Array.stringArray);
+console.log(Array.numsArray);
+console.log(Array.booleanArray);
