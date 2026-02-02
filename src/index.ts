@@ -3,6 +3,7 @@ const SpecialTypes = require('./specialTypes');
 const Array = require('./array');
 const ourTuple = require('./tuples');
 const object = require('./object');
+const enums = require('./enum');
 
 console.log(types.name);
 console.log(types.email);
@@ -30,3 +31,10 @@ console.log(object.car);
 console.log(object.student);
 console.log(object.productStok);
 console.log('=================');
+console.log(enums.Diraction);
+console.log(enums.move);
+console.log(enums.Rules);
+console.log(enums.role);
+console.log(enums.Mixed);
+console.log(enums.PaymentMethod);
+console.log(enums.pay);
