@@ -28,3 +28,5 @@ console.log(ourTuple);
 console.log('=================');
 console.log(object.car);
 console.log(object.student);
+console.log(object.productStok);
+console.log('=================');

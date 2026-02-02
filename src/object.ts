@@ -16,7 +16,19 @@ const student: {name: string, age: number, id? : number} = {
 };
 student.id = 12345;
 
+// Index signatures
+// Syntax for index signatures
+// const nomeObject : {[index : typeOfIndex] : typeValue} = {};
+const productStok : {[productName : string] : number} = {
+    orange : 10,
+    banana : 20,
+    // lemon : "50" Error type string is note assainable type of number
+};
+productStok.mango = 50;
+// productStok.keywe = "100"; Error type string is note assainable type of number
+
 module.exports = {
     car,
     student,
+    productStok,
 };
