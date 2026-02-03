@@ -5,6 +5,7 @@ const ourTuple = require('./tuples');
 const object = require('./object');
 const enums = require('./enum');
 const aliasAndInterface = require('./aliasesAndInterface');
+const union = require('./union');
 
 console.log(types.name);
 console.log(types.email);
@@ -46,4 +47,8 @@ console.log(aliasAndInterface.scores);
 console.log(aliasAndInterface.student);
 console.log(aliasAndInterface.enginer1);
 console.log(aliasAndInterface.doctor1);
+console.log('=================');
+console.log(union.id);
+console.log(union.printId);
+console.log(union.data);
 console.log('=================');
