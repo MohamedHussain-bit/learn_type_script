@@ -7,6 +7,7 @@ const enums = require('./enum');
 const aliasAndInterface = require('./aliasesAndInterface');
 const union = require('./union');
 const functionType = require('./function');
+const casting = require('./casting');
 
 console.log(types.name);
 console.log(types.email);
@@ -56,4 +57,7 @@ console.log('=================');
 console.log(functionType.add);
 console.log(functionType.printHello);
 console.log(functionType.sum);
+console.log('=================');
+console.log(casting.stringLength);
+console.log(casting.helloLength);
 console.log('=================');
