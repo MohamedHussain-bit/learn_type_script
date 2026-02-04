@@ -6,6 +6,7 @@ const object = require('./object');
 const enums = require('./enum');
 const aliasAndInterface = require('./aliasesAndInterface');
 const union = require('./union');
+const functionType = require('./function');
 
 console.log(types.name);
 console.log(types.email);
@@ -51,4 +52,8 @@ console.log('=================');
 console.log(union.id);
 console.log(union.printId);
 console.log(union.data);
+console.log('=================');
+console.log(functionType.add);
+console.log(functionType.printHello);
+console.log(functionType.sum);
 console.log('=================');
