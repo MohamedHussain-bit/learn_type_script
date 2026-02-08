@@ -10,6 +10,7 @@ const functionType = require('./function');
 const casting = require('./casting');
 const classes = require('./class');
 const generics = require('./generic');
+const utilityTypes = require('./utilityTypes');
 
 console.log(types.name);
 console.log(types.email);
@@ -77,4 +78,10 @@ console.log(generics.stringBox);
 console.log(generics.numberBox);
 console.log(generics.arrayStingBox);
 console.log(generics.res);
+console.log('=================');
+console.log(utilityTypes.userOptional);
+console.log(utilityTypes.userRequired);
+console.log(utilityTypes.userName);
+console.log(utilityTypes.ageAndEmailUser);
+console.log(utilityTypes.car);
 console.log('=================');
